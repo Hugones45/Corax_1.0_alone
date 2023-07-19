@@ -1,0 +1,33 @@
+.GContainerHeader {
+    display: flex;
+    align-items: center;
+    padding: 0px 120px;
+    position: relative;
+    top: 200px;
+}
+
+.MContainerHeader {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.MContainerHeader div {
+    display: flex;
+    align-items: center;
+    flex-basis: 33.33%;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.MContainerHeader h2 {
+    width: 30%;
+    margin: 0;
+}
+
+.MContainerHeader input {
+    display: flex;
+    width: 64%;
+    margin: 0;
+    border: none;
+    font-size: 25px;
+}

@@ -1,0 +1,93 @@
+{
+  "characterSheets": [
+    {
+      "id": 1,
+      "itemName": "Name",
+      "description": "444"
+    },
+    {
+      "id": 2,
+      "itemName": "Player",
+      "description": "Hugo"
+    },
+    {
+      "id": 3,
+      "itemName": "Chornicle",
+      "description": ""
+    },
+    {
+      "id": 4,
+      "itemName": "Player",
+      "description": "ddddd"
+    },
+    {
+      "id": 5,
+      "itemName": "Camp",
+      "description": ""
+    },
+    {
+      "id": 6,
+      "itemName": "Demeanor",
+      "description": ""
+    },
+    {
+      "id": 7,
+      "itemName": "Nature",
+      "description": "Ator"
+    },
+    {
+      "id": 8,
+      "itemName": "Geographic Origin",
+      "description": ""
+    },
+    {
+      "id": 9,
+      "itemName": "Concept",
+      "description": "ssssssssss"
+    }
+  ],
+  "talents": [
+    {
+      "id": 1,
+      "name": "Flight",
+      "score": 0
+    },
+    {
+      "id": 2,
+      "name": "Alertness",
+      "score": 1
+    },
+    {
+      "id": 3,
+      "name": "Primal-Urge",
+      "score": 1
+    },
+    {
+      "id": 4,
+      "name": "Subterfuge",
+      "score": 2
+    }
+  ],
+  "skills": [
+    {
+      "id": 5,
+      "name": "Craft",
+      "score": 0
+    },
+    {
+      "id": 6,
+      "name": "Drive",
+      "score": 0
+    },
+    {
+      "id": 7,
+      "name": "Weapons",
+      "score": 0
+    },
+    {
+      "id": 8,
+      "name": "Survival",
+      "score": 0
+    }
+  ]
+}
