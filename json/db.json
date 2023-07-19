@@ -1,14 +1,17 @@
 {
+
   "characterSheets": [
+    
     {
       "id": 1,
       "itemName": "Name",
-      "description": "444"
+      "description": ""
     },
     {
       "id": 2,
-      "itemName": "Player",
-      "description": "Hugo"
+      "itemName": "Breed",
+      "description": "",
+      "items":[{}]
     },
     {
       "id": 3,
@@ -18,7 +21,7 @@
     {
       "id": 4,
       "itemName": "Player",
-      "description": "ddddd"
+      "description": ""
     },
     {
       "id": 5,
@@ -33,7 +36,7 @@
     {
       "id": 7,
       "itemName": "Nature",
-      "description": "Ator"
+      "description": ""
     },
     {
       "id": 8,
@@ -43,7 +46,7 @@
     {
       "id": 9,
       "itemName": "Concept",
-      "description": "ssssssssss"
+      "description": ""
     }
   ],
   "talents": [

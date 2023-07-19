@@ -32,7 +32,7 @@ export const Header = () => {
 
     const upDateDescription = async (item) => {
 
-        const newDescription = { ...item, description }
+        let newDescription = { ...item, description }
 
         const update = await fetch(`${url}/${item.id}`, {
             method: "PUT",
@@ -53,7 +53,8 @@ export const Header = () => {
                 {headerList?.map((item) => <div key={item.id}>
                     <h2 style={{ fontSize: `${getGeo(item.id)}px` }}>{item.itemName}:</h2>
                     {item.description}
-                    <input value={description} onChange={e => setDescription(e.target.value)}
+                    <input value={description.id} onChange={e => setDescription(e.target.value)}
+                    
                     />
                     <button onClick={() => upDateDescription(item)}>Enviar</button>
                 </div>)}
