@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react"
 import { Header } from "./components/header"
+import { Attributes } from "./components/Attributes"
 
 function App() {
 
@@ -7,7 +8,7 @@ function App() {
     <div>
 
       <Header />
-
+      <Attributes />
 
     </div >
   )

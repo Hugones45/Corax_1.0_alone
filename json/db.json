@@ -1,7 +1,5 @@
 {
-
   "characterSheets": [
-    
     {
       "id": 1,
       "itemName": "Name",
@@ -10,8 +8,11 @@
     {
       "id": 2,
       "itemName": "Breed",
-      "description": "",
-      "items":[{}]
+      "description": "Corvinus",
+      "dropDown": [
+        "Corvinus",
+        "Hominideo"
+      ]
     },
     {
       "id": 3,
@@ -41,7 +42,12 @@
     {
       "id": 8,
       "itemName": "Geographic Origin",
-      "description": ""
+      "description": "",
+      "dropDown": [
+        "Minas Gerais",
+        "Bahia",
+        "Amazonia"
+      ]
     },
     {
       "id": 9,
