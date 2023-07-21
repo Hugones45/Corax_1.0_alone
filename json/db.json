@@ -3,7 +3,7 @@
     {
       "id": 1,
       "itemName": "Name",
-      "description": ""
+      "description": "Morro de Pena"
     },
     {
       "id": 2,
@@ -42,7 +42,7 @@
     {
       "id": 8,
       "itemName": "Geographic Origin",
-      "description": "",
+      "description": "Minas Gerais",
       "dropDown": [
         "Minas Gerais",
         "Bahia",
@@ -53,6 +53,53 @@
       "id": 9,
       "itemName": "Concept",
       "description": ""
+    }
+  ],
+  "attributes": [
+    {
+      "id": 1,
+      "nameAttributes": "Strenght",
+      "score": 4
+    },
+    {
+      "id": 2,
+      "nameAttributes": "Charisma",
+      "score": 1
+    },
+    {
+      "id": 3,
+      "nameAttributes": "Perception",
+      "score": 1
+    },
+    {
+      "id": 4,
+      "nameAttributes": "Dexterity",
+      "score": 4
+    },
+    {
+      "id": 5,
+      "nameAttributes": "Manipulation",
+      "score": 1
+    },
+    {
+      "id": 6,
+      "nameAttributes": "Intelligence",
+      "score": 1
+    },
+    {
+      "id": 7,
+      "nameAttributes": "Stamina",
+      "score": 1
+    },
+    {
+      "id": 8,
+      "nameAttributes": "Appearance",
+      "score": 1
+    },
+    {
+      "id": 9,
+      "nameAttributes": "Wits",
+      "score": 2
     }
   ],
   "talents": [
