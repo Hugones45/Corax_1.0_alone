@@ -1,9 +1,11 @@
-import { useState, useEffect } from "react"
+import { useState, useEffect, useRef } from "react"
 import styles from "./Header.module.css"
 
 export const Header = () => {
 
     const [description, setDescription] = useState('')
+
+    const inputRef = useRef()
 
     const geography = [{
         id: 8,
@@ -33,7 +35,6 @@ export const Header = () => {
     const [toggle, setToggle] = useState(false)
 
     const upDateDescription = async (item) => {
-
         setToggle((prevState) => ({
             ...prevState,
             [item.id]: !prevState[item.id]
@@ -50,9 +51,11 @@ export const Header = () => {
         })
 
         getDataHeader()
+
+        setDescription('')
+
+        inputRef.current.focus()
     }
-
-
 
     return (
         <div className={styles.GContainerHeader}>
@@ -60,9 +63,14 @@ export const Header = () => {
 
                 {headerList?.map((item) =>
                     <div key={item.id} className={styles.divContainerHeader}>
+                        <h2>{item.level}</h2>
+
                         <h2 style={{ fontSize: `${getGeo(item.id)}px` }}>{item.itemName}:</h2>
+
                         {!toggle[item.id] && <p className={styles.itemDescription} style={{ fontSize: '18px' }}>{item.description}</p>}
-                        {!item.dropDown && toggle[item.id] && < input value={description.id} onChange={e => setDescription(e.target.value)} />}
+                        {!item.dropDown && toggle[item.id] && < input
+                            ref={inputRef}
+                            value={description.id} onChange={e => setDescription(e.target.value)} />}
                         {item.dropDown && toggle[item.id] && <>
                             <select value={description.id} onChange={e => setDescription(e.target.value)}>
                                 <option />

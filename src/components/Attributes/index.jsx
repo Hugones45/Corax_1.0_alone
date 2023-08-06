@@ -44,7 +44,6 @@ export const Attributes = () => {
             body: JSON.stringify(setNewScore)
         })
         getAttributes()
-        console.log(newScore)
     }
 
     return (
@@ -58,13 +57,12 @@ export const Attributes = () => {
             </div>
             <div className={styles.MContainerAttri}>
 
-
                 {attributesList?.map((item) =>
 
                     <div key={item.id} className={styles.divContainerAttri}>
 
-                        <button onClick={() => upDateScore(item, 'less')}>-</button>
                         <div><h2 className={styles.nameAttributes}>{item.nameAttributes}</h2></div>
+                        <button onClick={() => upDateScore(item, 'less')}>-</button>
                         <div className={styles.spheres}>
                             <h2><FaRegCircle className={styles.filledScore} /></h2>
                             {[0, 1, 2, 3].map((_, index) => (

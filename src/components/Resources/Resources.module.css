@@ -1,0 +1,86 @@
+.GContainerAd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 130px;
+    position: relative;
+    top: 190px;
+    margin-bottom: 8%;
+    margin-left: 95px;
+}
+
+.Ccontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.renownDataMap {
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filledScore {
+    background-color: black;
+    border-radius: 50%;
+}
+
+.squarefilledScore {
+    background-color: black;
+}
+
+.healthContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.damageAndSave {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.setDamage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.squareForDamage {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+
+}
+
+.selector {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.selector select {
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+}
+
+.currentDamgeSize {
+    display: flex;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+}
+
+.weakness {
+    position: relative;
+    right: 120px;
+}

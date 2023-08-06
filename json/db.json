@@ -3,7 +3,7 @@
     {
       "id": 1,
       "itemName": "Name",
-      "description": "Morro de Pena"
+      "description": "File com Fritas"
     },
     {
       "id": 2,
@@ -16,28 +16,28 @@
     },
     {
       "id": 3,
-      "itemName": "Chornicle",
-      "description": ""
+      "itemName": "Nature",
+      "description": "Criador"
     },
     {
       "id": 4,
       "itemName": "Player",
-      "description": ""
+      "description": "Hugo Alexandre"
     },
     {
       "id": 5,
       "itemName": "Camp",
-      "description": ""
+      "description": "Trilha do Uirapuru"
     },
     {
       "id": 6,
       "itemName": "Demeanor",
-      "description": ""
+      "description": "Comediante"
     },
     {
       "id": 7,
-      "itemName": "Nature",
-      "description": ""
+      "itemName": "Chornicle",
+      "description": "Cubo Gotico"
     },
     {
       "id": 8,
@@ -52,14 +52,14 @@
     {
       "id": 9,
       "itemName": "Concept",
-      "description": ""
+      "description": "Artífice Espiritual"
     }
   ],
   "attributes": [
     {
       "id": 1,
       "nameAttributes": "Strenght",
-      "score": 4
+      "score": 0
     },
     {
       "id": 2,
@@ -74,7 +74,7 @@
     {
       "id": 4,
       "nameAttributes": "Dexterity",
-      "score": 4
+      "score": 0
     },
     {
       "id": 5,
@@ -84,7 +84,7 @@
     {
       "id": 6,
       "nameAttributes": "Intelligence",
-      "score": 1
+      "score": 2
     },
     {
       "id": 7,
@@ -105,45 +105,442 @@
   "talents": [
     {
       "id": 1,
-      "name": "Flight",
-      "score": 0
-    },
-    {
-      "id": 2,
       "name": "Alertness",
       "score": 1
     },
     {
+      "id": 2,
+      "name": "Atheletics",
+      "score": 0
+    },
+    {
       "id": 3,
-      "name": "Primal-Urge",
-      "score": 1
+      "name": "Brawl",
+      "score": 2
     },
     {
       "id": 4,
-      "name": "Subterfuge",
-      "score": 2
-    }
-  ],
-  "skills": [
+      "name": "Empathy",
+      "score": 4
+    },
     {
       "id": 5,
-      "name": "Craft",
-      "score": 0
+      "name": "Expression",
+      "score": 1
     },
     {
       "id": 6,
-      "name": "Drive",
-      "score": 0
+      "name": "Flight",
+      "score": 3
     },
     {
       "id": 7,
-      "name": "Weapons",
+      "name": "Primal-Urge",
       "score": 0
     },
     {
       "id": 8,
-      "name": "Survival",
+      "name": "Streetwise",
       "score": 0
+    },
+    {
+      "id": 9,
+      "name": "Subterfuge",
+      "score": 0
+    },
+    {
+      "id": 10,
+      "selectName": "ddddddddddd",
+      "score": 0
+    }
+  ],
+  "skills": [
+    {
+      "id": 1,
+      "name": "Animal Ken",
+      "score": 1
+    },
+    {
+      "id": 2,
+      "name": "Crafts",
+      "score": 1
+    },
+    {
+      "id": 3,
+      "name": "Drive",
+      "score": 2,
+      "selecName": ""
+    },
+    {
+      "id": 4,
+      "name": "Survival",
+      "score": 2
+    },
+    {
+      "id": 5,
+      "name": "Firearms",
+      "score": 0
+    },
+    {
+      "id": 6,
+      "name": "Leadership",
+      "score": 0
+    },
+    {
+      "id": 7,
+      "name": "Melee",
+      "score": 0
+    },
+    {
+      "id": 8,
+      "name": "Performance",
+      "score": 0
+    },
+    {
+      "id": 9,
+      "name": "Stealth",
+      "score": 0
+    },
+    {
+      "id": 11,
+      "selectName": " ",
+      "score": 0
+    }
+  ],
+  "knowledges": [
+    {
+      "id": 1,
+      "name": "Computer",
+      "score": 0
+    },
+    {
+      "id": 2,
+      "name": "Enigmas",
+      "score": 4
+    },
+    {
+      "id": 3,
+      "name": "Investigation",
+      "score": 2
+    },
+    {
+      "id": 4,
+      "name": "law",
+      "score": 0
+    },
+    {
+      "id": 5,
+      "name": "Linguistics",
+      "score": 0
+    },
+    {
+      "id": 6,
+      "name": "Medicine",
+      "score": 0
+    },
+    {
+      "id": 7,
+      "name": "Occult",
+      "score": 4
+    },
+    {
+      "id": 8,
+      "name": "Politics",
+      "score": 0
+    },
+    {
+      "id": 9,
+      "name": "Rituals",
+      "score": 3
+    },
+    {
+      "id": 16,
+      "selectName": "Ciencias",
+      "score": 0
+    }
+  ],
+  "backgrounds": [
+    {
+      "id": 1,
+      "namesS": "Mapa Umbral",
+      "score": 2
+    },
+    {
+      "id": 2,
+      "namesS": "Segredos",
+      "score": 4
+    },
+    {
+      "id": 3,
+      "namesS": "Recursos",
+      "score": 0
+    },
+    {
+      "id": 4,
+      "namesS": "Fetiches",
+      "score": 0
+    },
+    {
+      "id": 5,
+      "namesS": "Aliados",
+      "score": 0
+    }
+  ],
+  "gifts": [
+    {
+      "id": 1,
+      "giftName": "Garras Afiadas",
+      "level": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "getLevel": "1"
+    },
+    {
+      "id": 2,
+      "level": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "getLevel": "1",
+      "giftName": "Faro Para a Forma Verdadeira"
+    },
+    {
+      "id": 3,
+      "giftName": "Voz do Mimico",
+      "level": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "getLevel": "1"
+    },
+    {
+      "id": 4,
+      "giftName": "",
+      "level": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "getLevel": ""
+    },
+    {
+      "id": 5,
+      "giftName": "Asas Cortantes",
+      "level": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "getLevel": ""
+    },
+    {
+      "id": 6,
+      "giftName": "",
+      "level": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "getLevel": ""
+    },
+    {
+      "id": 7,
+      "giftName": "",
+      "level": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "getLevel": ""
+    },
+    {
+      "id": 8,
+      "giftName": "",
+      "level": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "getLevel": ""
+    },
+    {
+      "id": 9,
+      "giftName": "",
+      "level": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "getLevel": ""
+    },
+    {
+      "id": 10,
+      "giftName": "",
+      "level": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "getLevel": ""
+    }
+  ],
+  "renown": [
+    {
+      "id": 11,
+      "nameRenown": "Glory",
+      "score": 1,
+      "squareScore": 3
+    },
+    {
+      "id": 22,
+      "nameRenown": "Honor",
+      "score": 1,
+      "squareScore": 1
+    },
+    {
+      "id": 13,
+      "nameRenown": "Winsdom",
+      "score": 2,
+      "squareScore": 2
+    }
+  ],
+  "energies": [
+    {
+      "id": 1,
+      "nameEnergies": "Rage",
+      "score": 5,
+      "squareScore": 0
+    },
+    {
+      "id": 2,
+      "nameEnergies": "Gnosis",
+      "score": 6,
+      "squareScore": 0
+    },
+    {
+      "id": 3,
+      "nameEnergies": "Willpower",
+      "scores": 1,
+      "squareScore": 0,
+      "score": 7
+    }
+  ],
+  "health": [
+    {
+      "id": 1,
+      "leves": "Bruised",
+      "currentDamage": "X",
+      "scores": [
+        "/",
+        "X",
+        "*"
+      ],
+      "penalties": "0"
+    },
+    {
+      "id": 2,
+      "leves": "Hurt",
+      "currentDamage": "X",
+      "scores": [
+        "/",
+        "X",
+        "*"
+      ],
+      "penalties": "-1"
+    },
+    {
+      "id": 3,
+      "leves": "Injured",
+      "currentDamage": "",
+      "scores": [
+        "/",
+        "X",
+        "*"
+      ],
+      "penalties": "-1"
+    },
+    {
+      "id": 4,
+      "leves": "Wounded",
+      "currentDamage": "",
+      "scores": [
+        "/",
+        "X",
+        "*"
+      ],
+      "penalties": "-2"
+    },
+    {
+      "id": 5,
+      "leves": "Mauled",
+      "currentDamage": "",
+      "scores": [
+        "/",
+        "X",
+        "*"
+      ],
+      "penalties": "-2"
+    },
+    {
+      "id": 6,
+      "leves": "Crippled",
+      "currentDamage": "",
+      "scores": [
+        "/",
+        "X",
+        "*"
+      ],
+      "penalties": "-5"
+    },
+    {
+      "id": 7,
+      "leves": "Incapacitated",
+      "currentDamage": "",
+      "scores": [
+        "/",
+        "X",
+        "*"
+      ],
+      "penalties": "--"
+    },
+    {
+      "id": 8,
+      "stateWe": "Weakness",
+      "descripion": "Gold affects Corax as Silver affects Garou."
     }
   ]
 }

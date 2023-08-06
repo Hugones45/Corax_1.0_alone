@@ -5,7 +5,7 @@
     flex-direction: column;
     position: relative;
     top: 140px;
-
+    margin-left: 115px;
 }
 
 .titleAttri {
@@ -46,10 +46,9 @@
 }
 
 .attritubtesTitles {
-    width: 100%;
+    width: 2000px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20%;
-
 }

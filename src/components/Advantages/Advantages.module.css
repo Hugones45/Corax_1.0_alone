@@ -1,0 +1,107 @@
+.GContainerAd {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 190px;
+}
+
+.advantageTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.forTitleBackgrounds {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8%;
+}
+
+.backgroundListItens {
+    display: flex;
+    align-items: center;
+    margin: -30px 0;
+    gap: 10px;
+}
+
+.attritubtesAbilitiesAd {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    margin-left: -50px;
+    gap: 210px;
+
+}
+
+.setBackgrounds {
+    display: flex;
+    align-items: center;
+    gap: 8px
+}
+
+.filledScore {
+    background-color: black;
+    border-radius: 50%;
+}
+
+.spheres {
+    gap: 4px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.putTheBackgrounds {
+    width: 170px;
+}
+
+.MContainerGifts {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    width: 800px;
+    margin-left: -100px;
+}
+
+.listOfGifts {
+    display: flex;
+    justify-content: start;
+    min-width: 350px;
+    gap: 10px;
+    margin: -12px;
+}
+
+.theNames {
+    width: 320px;
+    height: 20px;
+    display: flex;
+    justify-content: end;
+}
+
+.theNames input {
+    position: relative;
+    top: 23px;
+}
+
+.giftButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.theLevel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.theLevel h2 {
+    width: 10px;
+    height: 27px;
+}

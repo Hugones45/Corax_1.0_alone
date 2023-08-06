@@ -1,0 +1,80 @@
+.GContainerAbi {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    top: 180px;
+}
+
+.MContainerAbi {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    grid-template-areas: "talents skills knowledges";
+}
+
+
+.filledScore {
+    background-color: black;
+    border-radius: 50%;
+}
+
+.testDiv {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.spheresK {
+    gap: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divContainerAttriK {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    min-width: 350px;
+    gap: 5px;
+    margin: -12px;
+}
+
+
+.attritubtesAbilities {
+    width: 2000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+
+}
+
+.selectedAbilitie {
+    display: flex;
+    justify-content: start;
+    min-width: 198px;
+    border: none;
+    border-bottom: 2px solid #000;
+    font-size: 20px;
+    max-width: 160px;
+}
+
+.yourCustomClassName {
+    display: flex;
+    justify-content: center;
+    min-width: 262px
+}
+
+.nameAttributesK {
+    display: flex;
+    justify-content: start;
+    min-width: 200px
+}
+
+.special {
+    position: relative;
+}
