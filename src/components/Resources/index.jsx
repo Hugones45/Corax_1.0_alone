@@ -11,10 +11,14 @@ export const Resouces = () => {
     const urlRenown = "http://localhost:3000/renown"
     const urlEnergies = "http://localhost:3000/energies"
     const urlHealth = "http://localhost:3000/health"
+    const urlRank = "http://localhost:3000/rank"
 
     const [renownData, setRenown] = useState([])
     const [energiesData, setEnergiesData] = useState([])
     const [healthData, setHealthData] = useState([])
+
+    const [rank, setRank] = useState([])
+    const [rankLevel, setRankLevel] = useState("")
 
     const [currentDamage, setCurrentDamage] = useState("")
 
@@ -28,9 +32,13 @@ export const Resouces = () => {
         const resHealth = await fetch(urlHealth)
         const jsonHealth = await resHealth.json()
 
+        const resRank = await fetch(urlRank)
+        const jsonrank = await resRank.json()
+
         setRenown(jsonData)
         setEnergiesData(jsonEnergies)
         setHealthData(jsonHealth)
+        setRank(jsonrank)
     }
 
     useEffect(() => {
@@ -109,6 +117,23 @@ export const Resouces = () => {
         getDataResourcers()
     }
 
+    const upRank = (item) => {
+
+        const newrank = { ...item, rankLevel }
+
+        fetch(`${urlRank}/${item.id}`, {
+            method: "PUT",
+            headers: {
+                "content-type": "application/json"
+            },
+            body: JSON.stringify(newrank)
+        })
+        setToggleHank(!toggleRank)
+        getDataResourcers()
+    }
+
+    const [toggleRank, setToggleHank] = useState(!false)
+
     return (
         <div className={styles.GContainerAd}>
 
@@ -140,6 +165,22 @@ export const Resouces = () => {
                         <button onClick={() => upDateScores(item, 'moreSquare', 'BiSquare')}>+</button>
                     </div>
                 </div>)}
+
+                <div >
+                    <h2>Rank</h2>
+                    {rank.map((item) => <div className={styles.ranks} key={item.id}>
+
+                        {toggleRank && <h2>{item.rankLevel}</h2>}
+                        {!toggleRank && <input
+                            type="number"
+                            value={rankLevel}
+                            onChange={e => setRankLevel(e.target.value)}
+                        />}
+
+                        <button onClick={() => upRank(item)}>R</button>
+                    </div>)}
+                </div>
+
             </div>
 
             <div>

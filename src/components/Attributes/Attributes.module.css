@@ -9,7 +9,12 @@
 }
 
 .titleAttri {
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 145px;
 }
 
 .MContainerAttri {
@@ -46,9 +51,12 @@
 }
 
 .attritubtesTitles {
-    width: 2000px;
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20%;
+    position: relative;
+    gap: 410px;
+    top: 130px;
+
 }

@@ -47,36 +47,39 @@ export const Attributes = () => {
     }
 
     return (
-
-        <div className={styles.GContainerAttri}>
+        <div>
             <h1 className={styles.titleAttri}>Attributes</h1>
             <div className={styles.attritubtesTitles}>
                 <h2>Physical</h2>
                 <h2>Social</h2>
                 <h2>Mental</h2>
             </div>
-            <div className={styles.MContainerAttri}>
 
-                {attributesList?.map((item) =>
+            <div className={styles.GContainerAttri}>
 
-                    <div key={item.id} className={styles.divContainerAttri}>
 
-                        <div><h2 className={styles.nameAttributes}>{item.nameAttributes}</h2></div>
-                        <button onClick={() => upDateScore(item, 'less')}>-</button>
-                        <div className={styles.spheres}>
-                            <h2><FaRegCircle className={styles.filledScore} /></h2>
-                            {[0, 1, 2, 3].map((_, index) => (
-                                <h2 key={index} >
-                                    <FaRegCircle className={` ${item.score > index && styles.filledScore}`} />
-                                </h2>
-                            ))}
+                <div className={styles.MContainerAttri}>
+
+                    {attributesList?.map((item) =>
+
+                        <div key={item.id} className={styles.divContainerAttri}>
+
+                            <div><h2 className={styles.nameAttributes}>{item.nameAttributes}</h2></div>
+                            <button onClick={() => upDateScore(item, 'less')}>-</button>
+                            <div className={styles.spheres}>
+                                <h2><FaRegCircle className={styles.filledScore} /></h2>
+                                {[0, 1, 2, 3].map((_, index) => (
+                                    <h2 key={index} >
+                                        <FaRegCircle className={`${item.score > index && styles.filledScore}`} />
+                                    </h2>
+                                ))}
+                            </div>
+                            <button onClick={() => upDateScore(item, 'more')}>+</button>
+
                         </div>
-                        <button onClick={() => upDateScore(item, 'more')}>+</button>
-
-                    </div>
-                )}
+                    )}
+                </div>
             </div>
         </div>
-
     )
 }
