@@ -1,0 +1,62 @@
+.GContainerAttri {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: 140px;
+    margin-left: 115px;
+}
+
+.titleAttri {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 145px;
+}
+
+.MContainerAttri {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.divContainerAttri {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    min-width: 500px;
+    gap: 10px;
+    margin: -12px;
+
+}
+
+.filledScore {
+    background-color: black;
+    border-radius: 50%;
+}
+
+.nameAttributes {
+    display: flex;
+    justify-content: start;
+    min-width: 180px;
+}
+
+.spheres {
+    gap: 4px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.attritubtesTitles {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 410px;
+    top: 130px;
+
+}
